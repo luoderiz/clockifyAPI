@@ -14,8 +14,11 @@ public class ProjectResponse {
     private boolean billable;
     private List<Membership> memberships;
     private String color;
-    private Estimate EstimateObject;
+
+    private Estimate estimate;
     private boolean archived;
+
+    private String clientName;
     private List <Tasks> tasks;
     private String note;
     private String duration;
@@ -100,20 +103,27 @@ public class ProjectResponse {
         this.color = color;
     }
 
-    public Estimate getEstimateObject() {
-        return EstimateObject;
+    public Estimate getEstimate() {
+        return estimate;
     }
 
-    public void setEstimateObject(Estimate estimateObject) {
-        EstimateObject = estimateObject;
+    public void setEstimate(Estimate estimate) {
+        this.estimate = estimate;
     }
-
     public boolean isArchived() {
         return archived;
     }
 
     public void setArchived(boolean archived) {
         this.archived = archived;
+    }
+
+    public String getClientName() {
+        return clientName;
+    }
+
+    public void setClientName(String clientName) {
+        this.clientName = clientName;
     }
 
     public List<Tasks> getTasks() {
