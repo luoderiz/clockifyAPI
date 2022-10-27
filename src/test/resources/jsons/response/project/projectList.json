@@ -1,7 +1,7 @@
 [
   {
-    "id": "633f5dac7bbee426a514d032",
-    "name": "Crowdar",
+    "id": "63508f683da4c53079c8b3d1",
+    "name": "Proyecto Dos",
     "hourlyRate": {
       "amount": 0,
       "currency": "USD"
@@ -9,6 +9,47 @@
     "clientId": "",
     "workspaceId": "633f5b887bbee426a514c082",
     "billable": true,
+    "memberships": [
+      {
+        "userId": "633f5b887bbee426a514c081",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "63508f683da4c53079c8b3d1",
+        "membershipType": "PROJECT",
+        "membershipStatus": "ACTIVE"
+      }
+    ],
+    "color": "#0F9688",
+    "estimate": {
+      "estimate": "PT0S",
+      "type": "AUTO"
+    },
+    "archived": false,
+    "duration": "PT21H36M",
+    "clientName": "",
+    "note": "",
+    "costRate": null,
+    "timeEstimate": {
+      "estimate": "PT0S",
+      "type": "AUTO",
+      "resetOption": null,
+      "active": false,
+      "includeNonBillable": true
+    },
+    "budgetEstimate": null,
+    "template": false,
+    "public": true
+  },
+  {
+    "id": "633f5dac7bbee426a514d032",
+    "name": "Proyecto Uno",
+    "hourlyRate": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "clientId": "",
+    "workspaceId": "633f5b887bbee426a514c082",
+    "billable": false,
     "memberships": [
       {
         "userId": "633f5b887bbee426a514c081",
@@ -38,6 +79,6 @@
     },
     "budgetEstimate": null,
     "template": false,
-    "public": true
+    "public": false
   }
 ]

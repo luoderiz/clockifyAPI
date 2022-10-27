@@ -20,7 +20,7 @@ public class ProjectValidator {
                 new File("src/test/resources/jsons/response/project/projectList.json"), new TypeReference<List<ProjectResponse>>() {
                 });
 
-        Assert.assertEquals(response.length, 1);
+        Assert.assertEquals(response.length, 2);
         Assert.assertEquals(response[0].getWorkspaceId(), validResponses.get(0).getWorkspaceId() );
         Assert.assertEquals(response[0].getName(), validResponses.get(0).getName() );
     }

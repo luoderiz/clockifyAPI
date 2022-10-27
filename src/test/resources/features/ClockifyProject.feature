@@ -34,7 +34,7 @@ Feature: Project
     Then se obtuvo el status code <status>
     Examples:
       | operation | entity    | jsonName                                   |  status |
-      | GET       | PROJECT   | project/queryProjectByProjectIdOnWorkspace |  404    |
+      | GET       | PROJECT   | project/queryProjectByProjectIdOnWorkspace |  400    |
 
   @Project @GetOne @Fail
   Scenario Outline: Consulta de un proyecto en workspace existente con key id invalida
