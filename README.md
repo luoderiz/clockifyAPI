@@ -1,21 +1,16 @@
-# LIPPIA API Example Project
+# About this Project
 
-## System Requirements : 
-+ git client: https://www.atlassian.com/git/tutorials/install-git 
-+ docker 18.09: https://docs.docker.com/install/linux/docker-ce/ubuntu/ 
-+ docker compose 1.24: https://docs.docker.com/compose/install/
+API testing using Lippia Framework of a time management app.
 
-## Docker stack
+## Test Results
+![clockifyAPI Test Results](https://user-images.githubusercontent.com/94746195/215744588-215537e1-9300-4864-898d-d032620acf3d.jpg)
 
-The following project includes the basic Docker Lippia Containers to run this  web sample project. You can choose to run the code from your favourite IDE, run from console or from Jenkins using the Docker Stack.
-To install and start a local instalation with Docker containers go to **Getting started** at the end of this guide. 
+## Automation Report
+![clockifyAPI Automation Report](https://user-images.githubusercontent.com/94746195/215744617-e95ea584-8b59-43a5-ac8b-4dabd59ae606.jpg)
 
-# Purpose: 
+---
 
-The following project has the purpose of demonstrate and let test automation developers to to test API requests using Lippia Automation Framework based on Rest Client library. 
-This sample project includes the required components as binaries, docker containers and configuration files to simply download and run a set of sample tests in your local computer, using the Lippia container stack described bellow.
-
-# Getting started
+# About Lippia Automation Framework
 
 ## Executing tests in you local machine 
 - go to root project folder and you will find a pom.xml file
